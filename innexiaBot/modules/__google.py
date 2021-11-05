@@ -286,6 +286,6 @@ __help__ = """
  ❍ /github <username>*:* Get information about a GitHub user.
  ❍ /country <country name>*:* Gathering info about given country
  ❍ /imdb <Movie name>*:* Get full info about a movie with imdb.com
- ❍ ALBY <query>*:* Innexia answers the query
+ ❍ ALBY <query>*:* ALBY answers the query
   💡Ex: `ALBY where is India?`
 """
