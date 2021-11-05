@@ -148,7 +148,7 @@ async def ws(event):
         await event.delete()
         st = sender.first_name
         hh = sender.id
-        final = f"**NSFW DETECTED**\n\n{st}](tg://user?id={hh}) your message contain NSFW content.. So, Innexia deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh})  \n\n`⚔️Automatic Detections Powered By Innexia AI` \n**#GROUP_GUARDIAN** "
+        final = f"**NSFW DETECTED**\n\n{st}](tg://user?id={hh}) your message contain NSFW content.. So, Innexia deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh})  \n\n`⚔️Automatic Detections Powered By @i_am_albin_praveen AI` \n**#GROUP_GUARDIAN** "
         dev = await event.respond(final)
         await asyncio.sleep(10)
         await dev.delete()
@@ -210,7 +210,7 @@ async def nsfw_watch(client, message):
             Escobar = midhun.id
         await client.send_message(
             message.chat.id,
-            f"**NSFW DETECTED**\n\n{hehe}'s message contain NSFW content.. So, Innexia deleted the message\n\n **Nsfw Sender - User / Bot :** `{Escobar}` \n**Chat Title:** `{ctitle}` \n\n`⚔️Automatic Detections Powered By InnexiaAI` \n**#GROUP_GUARDIAN** ",
+            f"**NSFW DETECTED**\n\n{hehe}'s message contain NSFW content.. So, ALBY deleted the message\n\n **Nsfw Sender - User / Bot :** `{Escobar}` \n**Chat Title:** `{ctitle}` \n\n`⚔️Automatic Detections Powered By InnexiaAI` \n**#GROUP_GUARDIAN** ",
         )
         message.continue_propagation()
 """
@@ -367,7 +367,7 @@ async def del_profanity(event):
                     await event.delete()
                     st = sender.first_name
                     hh = sender.id
-                    final = f"**NSFW DETECTED**\n\n{st}](tg://user?id={hh}) your message contain NSFW content.. So, Layla deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh})  \n\n`⚔️Automatic Detections Powered By LaylaAI` \n**#GROUP_GUARDIAN** "
+                    final = f"**NSFW DETECTED**\n\n{st}](tg://user?id={hh}) your message contain NSFW content.. So, Layla deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh})  \n\n`⚔️Automatic Detections Powered By @i_am_albin_praveen` \n**#GROUP_GUARDIAN** "
                     dev = await event.respond(final)
                     await asyncio.sleep(10)
                     await dev.delete()
@@ -430,14 +430,14 @@ async def del_profanity(event):
 
 __help__ = """
 <b> Group Guardian: </b>
-✪ Layla can protect your group from NSFW senders, Slag word users and also can force members to use English
+✪ ALBY can protect your group from NSFW senders, Slag word users and also can force members to use English
 
 <b>Commmands</b>
  - /gshield <i>on/off</i> - Enable|Disable Porn cleaning
  - /globalmode <i>on/off</i> - Enable|Disable English only mode
  - /profanity <i>on/off</i> - Enable|Disable slag word cleaning
  
-Note: Special credits goes to Julia project and Friday Userbot
+CREDITS:@i_am_albin_praveen
  
 """
 __mod_name__ = "Shield"
