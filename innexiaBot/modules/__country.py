@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By Innexia.</b>
+Gathered By @i_am_albin_praveen.</b>
 """
     
     
