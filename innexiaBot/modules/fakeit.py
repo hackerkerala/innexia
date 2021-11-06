@@ -44,7 +44,7 @@ async def _(event):
             with open("INNEXIA.jpg", "wb") as f:
                 f.write(response.content)
 
-        captin = f"Fake Image powered by @SiderzChat."
+        captin = f"Fake Image powered by @i_am_albin_praveen."
         fole = "INNEXIA.jpg"
         await tbot.send_file(event.chat_id, fole, caption=captin)
         await event.delete()
